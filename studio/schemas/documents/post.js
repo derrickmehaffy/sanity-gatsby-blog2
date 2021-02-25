@@ -33,6 +33,18 @@ export default {
       title: 'Main image'
     },
     {
+      title: 'Video',
+      name: 'video',
+      type: 'file',
+      fields: [
+        {
+          name: 'description',
+          type: 'string',
+          title: 'Description'
+        }
+      ]
+    },
+    {
       name: 'excerpt',
       type: 'excerptPortableText',
       title: 'Excerpt',
